@@ -1,0 +1,62 @@
+body {
+    font: 100%/1.5 Georgia, 'Times New Roman', Times, serif;
+    color: #222;
+}
+
+/* responsive images */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* hide screen-reader only text. https://webaim.org/techniques/css/invisiblecontent/ */
+.clip {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+a {
+    color: #df633a;
+    text-decoration: none;
+}
+
+h1, h2, p {margin: 1.5rem 0;}
+h1 {
+    font-size: 1.8rem; 
+    font-weight: 700;
+    color: #444;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 1.4rem; 
+    font-weight: 700;
+    color: #333;
+    line-height: 1.2;
+}
+p {font-size: 1.2rem;}
+figcaption {
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+    color: #666;
+}
+small {font-size: 1rem;}
+
+header, article, footer {padding: 1rem;}
+
+header {
+    background: #555;
+    text-align: center;
+}
+header img {
+    width: 128px;
+    margin: 0 auto;
+}
+
+article {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 2rem;
+}
+section {margin: 2.5rem 0;}
+footer {background: #e6e6e6;}
