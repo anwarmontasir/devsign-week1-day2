@@ -22,41 +22,50 @@ a {
     text-decoration: none;
 }
 
-h1, h2, p {margin: 1.5rem 0;}
-h1 {
-    font-size: 1.8rem; 
-    font-weight: 700;
-    color: #444;
+h1, h2, p {margin: 1rem 0;}
+
+h1, h2 {
+    font-weight: bold;
     line-height: 1.2;
 }
-h2 {
-    font-size: 1.4rem; 
-    font-weight: 700;
-    color: #333;
-    line-height: 1.2;
-}
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.4rem;}
 p {font-size: 1.2rem;}
+figcaption, small {font-size: 1rem;}
+
+header, article, footer {padding: 1rem;}
+
+header { background: #555;}
+header img {
+    width: 128px;
+    margin: 0 auto;
+}
+
+article {border-bottom: 1px solid #ddd;}
+
+section {margin-top: 3rem;}
+
 figcaption {
+    color: #666;
+    margin: 1rem 0 2rem;
+}
+
+footer {background: #eee;}
+
+/*figcaption {
     font-size: 1rem;
     margin: 1rem 0 2rem;
     color: #666;
 }
 small {font-size: 1rem;}
 
-header, article, footer {padding: 1rem;}
 
-header {
-    background: #555;
-    text-align: center;
-}
-header img {
-    width: 128px;
-    margin: 0 auto;
-}
+
+
 
 article {
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 2rem;
 }
 section {margin: 2.5rem 0;}
-footer {background: #e6e6e6;}
+footer {background: #e6e6e6;}*/
