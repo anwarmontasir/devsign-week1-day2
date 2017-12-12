@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, p {margin: 1rem 0;}
+h1, h2, p {margin: 1rem 0 2rem;}
 
 h1, h2 {
     font-weight: bold;
@@ -43,7 +43,7 @@ header img {
 
 article {border-bottom: 1px solid #ddd;}
 
-section {margin-top: 3rem;}
+section {margin-top: 4rem;}
 
 figcaption {
     color: #666;
