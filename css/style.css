@@ -52,3 +52,15 @@ figcaption {
 
 footer {background: #eee;}
 footer a {color: #AF501D;}
+
+.read-more {
+    background: #BD561F;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.read-more:after {
+    content:  " \00bb";
+}
